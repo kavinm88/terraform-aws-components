@@ -13,10 +13,6 @@
 # for example `context = module.this.context`,
 # and access individual variables as `module.this.<var>`,
 # with final values filled in.
-#
-# For example, when using defaults, `module.this.context.delimiter`
-# will be null, and `module.this.delimiter` will be `-` (hyphen).
-#
 
 module "this" {
   source = "git::https://github.com/cloudposse/terraform-null-label.git?ref=tags/0.21.0"
